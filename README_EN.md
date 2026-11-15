@@ -8,8 +8,8 @@
   <a href="https://github.com/MaxExteraPlugins/notification_center/releases/latest">
     <img src="https://img.shields.io/github/v/release/MaxExteraPlugins/notification_center?style=flat-square&color=blue" alt="Release Version"/>
   </a>
-  <img src="https://img.shields.io/badge/exteraGram-%3E%3D12.5.1-orange?style=flat-square" alt="exteraGram"/>
-  <img src="https://img.shields.io/badge/AyuGram-%3E%3D12.5.1-blueviolet?style=flat-square" alt="AyuGram"/>
+  <img src="https://img.shields.io/badge/exteraGram-%3E%3D12.10.6-orange?style=flat-square" alt="exteraGram"/>
+  <img src="https://img.shields.io/badge/AyuGram-%3E%3D12.10.6-blueviolet?style=flat-square" alt="AyuGram"/>
   <a href="https://t.me/MaxExteraPlugins">
     <img src="https://img.shields.io/badge/Telegram-@MaxExteraPlugins-2CA5E0?style=flat-square&logo=telegram" alt="Telegram Channel"/>
   </a>
@@ -21,7 +21,7 @@
 
 **Notification Center** plugin for **exteraGram** and **AyuGram** clients.
 
-Discord-style notification center: collects and stores all mentions and replies to your messages.
+Deep customization and flexible filtering of chat notifications.
 
 ---
 
@@ -36,6 +36,6 @@ Discord-style notification center: collects and stores all mentions and replies 
 
 ## 📋 Compatibility
 
-* **exteraGram:** `>= 12.5.1`
-* **AyuGram:** `>= 12.5.1`
+* **exteraGram:** `>= 12.10.6`
+* **AyuGram:** `>= 12.10.6`
 * **Plugin SDK:** `>= 1.4.3.3`
