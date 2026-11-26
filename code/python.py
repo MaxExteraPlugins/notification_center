@@ -47,6 +47,10 @@ DEX_END = "__DEX_END__"
 def _read_dex_payload():
     import base64
     import zlib
+    _dex_b64 = globals().get("_DEX_PAYLOAD")
+    if _dex_b64:
+        import base64, zlib
+        return zlib.decompress(base64.b64decode(_dex_b64))
     with open(__file__, "r", encoding="utf-8") as f:
         text = f.read()
     body = text.split("# " + DEX_BEGIN, 1)[1].split("# " + DEX_END, 1)[0]
